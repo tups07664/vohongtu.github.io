@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>YuumeiArt</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="top">
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"><img src="image/logo.png" alt="" class="img-responsive"></a>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <div id="menu">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                            aria-haspopup="true" aria-expanded="false"> ARTWORKS <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="n1">ILLUSTRATION</a></li>
+                                            <li><a class="n2">GRAPHIC NOVELS</a></li>
+                                            <li><a class="n3">GALLERY</a></li>
+
+                                        </ul>
+                                    <li><a class="n4">SHOP</a></li>
+                                    <li><a class="n5">FAQ</a></li>
+                                    <li class="dropdown">
+                                        <a href="http://www.jquery2dotnet.com" class="dropdown-toggle" data-toggle="dropdown">CONTACT<b
+                                                class="caret"></b></a>
+                                        <ul class="dropdown-menu" style="padding: 15px;min-width: 250px;">
+
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <form>
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="name">
+                                                                            Name</label>
+                                                                        <input type="text" class="form-control" id="name"
+                                                                            placeholder="Enter name" required="required" />
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="email">
+                                                                            Email Address</label>
+                                                                        <div class="input-group">
+                                                                            <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                                                            </span>
+                                                                            <input type="email" class="form-control" id="email"
+                                                                                placeholder="Enter email" required="required" /></div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <label for="subject">
+                                                                            Subject</label>
+                                                                        <select id="subject" name="subject" class="form-control"
+                                                                            required="required">
+                                                                            <option value="na" selected="">Choose One:</option>
+                                                                            <option value="service">General Customer
+                                                                                Service</option>
+                                                                            <option value="suggestions">Suggestions</option>
+                                                                            <option value="product">Product Support</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="form-group">
+                                                                        <label for="name">
+                                                                            Message</label>
+                                                                        <textarea name="message" id="message" class="form-control"
+                                                                            rows="9" cols="25" required="required"
+                                                                            placeholder="Message"></textarea>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <button type="submit" class="btn btn-primary pull-right"
+                                                                        id="btnContactUs">
+                                                                        Send Message</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div> <!-- End Top -->
+
+    <!-- Slide -->
+    <div id="slideArea">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div id="carousel-id" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                            <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                            <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="image/2.jpg" class="img-responsive">
+
+                            </div>
+                            <div class="item">
+                                <img src="image/3.jpg" class="img-responsive">
+
+                            </div>
+                            <div class="item ">
+                                <img src="image/4.jpg" class="img-responsive">
+
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                        <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slide -->
+
+    <div class="space"></div>
+    <div id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <h2>YUUMEI</h2>
+                    <h5>The art and musings of a disillusioned idealist</h5>
+                    <h6>Yuumei is the username I chose when I first got my deviantART account at the age of 12. As I
+                        posted more and more art under that username, Yuumei simply became my 2nd name.</h6>
+                    <h6>Yuumei (幽冥 or 幽明) means light and darkness, strange and deep, hades, and semidarkness. Not to
+                        be confused with yuumei (有名) which ironically means famous. The 12 year old me who picked this
+                        name did not foresee this. </h6>
+                    <h6>Hey there, wanderer! I'd love to hear from you, but I tend to get flooded with messages so I'm
+                        sorry if I don't get back to you right away. If you have any questions, please check out the
+                        FAQ before asking :)</h5>
+                        <div class="space"></div>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="image/1.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="space"></div>
+
+    <div class="illustration">
+        <div class="container">
+            <h1>Illustration</h1>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="image/4.jpg" class="img-responsive">
+                    <div class="space"></div>
+                    <img src="image/il1.jpg" class="img-responsive">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="image/il2.jpg" class="img-responsive">
+
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="image/il3.jpg" class="img-responsive">
+                    <div class="space"></div>
+                    <img src="image/il4.jpg" class="img-responsive">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="space"></div>
+
+    <div class="GraphicNovels">
+        <div class="container">
+            <h1>Graphic Novels</h1>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="image/gn1.jpg" class="img-responsive">
+                    <div class="space"></div>
+                    <img src="image/gn2.jpg" class="img-responsive">
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="image/gn3.jpg" class="img-responsive">
+                    <div class="space"></div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="image/gn4.jpg" class="img-responsive">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="space"></div>
+    <div class="container">
+        <div class="row">
+            <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="gallery-title">Gallery</h1>
+            </div>
+
+            <div align="center">
+                <button class="btn btn-default filter-button active" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="ap">Artprints</button>
+                <button class="btn btn-default filter-button" data-filter="fa">Fanart</button>
+                <button class="btn btn-default filter-button" data-filter="fb">Fisheye Placebo</button>
+            </div>
+            <br />
+
+
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter ap">
+                <img src="image/sh1.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter fb">
+                <img src="image/sh15.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter ap">
+                <img src="image/sh2.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter ap">
+                <img src="image/sh3.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter ap">
+                <img src="image/sh4.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter fb">
+                <img src="image/sh14.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter ap">
+                <img src="image/sh5.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter ap">
+                <img src="image/sh6.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter fb">
+                <img src="image/sh13.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter fa">
+                <img src="image/sh7.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter ap">
+                <img src="image/sh8.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter ap">
+                <img src="image/sell4.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter fa">
+                <img src="image/sh11.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter fb">
+                <img src="image/sh12.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter fa">
+                <img src="image/sh9.jpg" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-3 col-md-3 col-sm-3 col-xs-3 filter fa">
+                <img src="image/sh10.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    </div>
+    </div>
+    <div id="Shop">
+        <div class="container">
+            <h1>Shop</h1>
+            <div class="space"></div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <img src="image/sell1.png" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                    <h2>Buy 2 Prints ($12.50 each)</h2>
+                    <h5>Buy 2 prints for $25! Please specify the names of the prints you would like to purchase from
+                        the shop catalog. You can click on the image to enlarge and see the names of each painting.
+                    </h5>
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                    <div class="form-group">
+                        <label for="usr">Quantity:</label>
+                        <input type="text" class="form-control" id="usr">
+                        <div class="space"></div>
+                        <button type="button" class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space"></div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                    <img src="image/sell2.png" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                    <h2>Buy 3+ Prints ($10 each)</h2>
+                    <h5>from 30.00
+                        Buy 3 or more prints for $10 per print. Please specify which prints you would like to purchase
+                        from the shop catalog, as well as the amount of prints you would like. You can click on the
+                        image to enlarge and see the names of each painting. <br />
+                        If you would like to purchase more than 10 prints, you can change the quantity numbers to
+                        double or triple the number of prints. </h5>
+                </div>
+                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                    <div class="form-group">
+                        <label for="usr">Quantity:</label>
+                        <input type="text" class="form-control" id="usr">
+                        <div class="space"></div>
+                        <button type="button" class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space"></div>
+
+            <div id="FAQ">
+                <div class="container">
+                    <h1>FAQ</h1>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <h4><b>Q: Where did you learn to draw?</b></h4>
+                        <h5>A: I grew up in China where parents compete and show off their child like some sort of
+                            hobby, so drawing was one of the many things I had to learn. I really loved it so I took
+                            more classes but not too much. All my Chinese art classes focused on realism and drawing
+                            from life. That gave me the foundations to draw everything else but drawing is not a
+                            magical process where you take a class, and BAM! you're an artist. It's all about hard work
+                            and practice like everything else in life.<br />
+
+                            What helped me the most was actually being part of the deviantART community where I learned
+                            from other artists by observing their works, and the free tutorials they provided. There
+                            are many art classes out there, but there are even more free online tutorials and resources
+                            made by kind hearted artists. Anyone can learn how to draw for free, and all you need to
+                            bring is determination :)</h5>
+
+                        <hr>
+
+                        <h4><b>Q: When will you post the next chapter of your comic/ upload a new drawing?</b></h4>
+                        <h5>A: I don't have a set schedule for my work. I hurt my hand many years ago from over
+                            working. Due to the pain, I had to limit how often I can draw each day. Recent'y I've been
+                            working with a 3D team to build models for my comic, which I can then paint over and save
+                            on time and hand strain. It takes a long time to create enough models that goes into a
+                            comic, so please be patient as my team and I work as fast as possible without compromising
+                            quality or our health.</h5>
+
+                        <hr>
+
+                        <h4><b>Q: Do you take requests, art trades, or commissions? What about volunteer or donation
+                                art?</b></h4>
+                        <h5>A: I don't take requests, but as a kid, I loved doing art trades with fellow artists and I
+                            still do, but as an adult I simply don't have the time anymore. I also used to be open for
+                            commissions to help pay the bills, but I've been too focused on personal projects to have
+                            time for that as well. Once in a blue moon I might be open for a commission or two, and if
+                            you have a special project, you can always e-mail me about my commission status, but please
+                            don't be surprised if I am not taking commissions at the moment.
+
+                            If you're part of a non profit organization and would like me to illustrate for charity
+                            work, I'd be happy to help if I have time. Feel free to contact me about your cause! :)</h5>
+
+
+                        <div class="space"></div>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <h4><b>Q: Do you make tutorials?</b></h4>
+                        <h5>A: Yes! I love tutorials because they helped me as an aspiring artist and I want to give
+                            back to the community. I haven't had time to make all the tutorials I have in plan but I
+                            will get to them one at a time. You can check out all the existing tutorials I have on the
+                            Tutorials Page.</h5>
+                        <div class="space"></div>
+                        <hr>
+                        <h4><b>Q: What tools, programs, or materials do you use?</b></h4>
+                        <h5>A: I use a variety of mediums but I'm most comfortable with digital art. The majority of my
+                            illustrations are done in drawing programs like Paint Tool SAI, and Photoshop with a Wacom
+                            Intuos tablet. I usually do most of the drawing and painting in SAI, and some final
+                            editing, color and texture touchups in Photoshop.
+
+                            For graphic novels like Fisheye Placebo, I integrated 3D programs such as Sketchup, Esri
+                            City Generator, and other procedural generation programs to help me quickly and efficiently
+                            create backgrounds and settings. That way I don't have to draw the same table or building
+                            over and over again in the comics.
+
+                            When not doing digital work, I like to sketch in ball point pens. Watercolor is my prefered
+                            traditional painting medium but I also enjoy acrylic and oil paint. I dabble in origami
+                            once in a blue moon, but I've spent many years sculpting with ceramics, and briefly worked
+                            with welding metal and chainsawing wood sculptures. I really enjoy integrating digital and
+                            physical media such as laser cutting and 3D printing.
+
+                            I created the initial prototypes of my Axent Wear Cat Ear Headphones design (now licensed
+                            by Brookstone) in Sketchup and 3D printed it at my university's Invention Lab. I look
+                            forward to creating future integrated media art with drones and other technologies :)</h5>
+
+                        <hr>
+
+                        <h4><b>Q: What inspires you?</b></h4>
+                        <h5>A: That's a complicated questions with a complicated answer. In short I am inspired by
+                            nature, my personal life experiences, other artists, and simply the beauty and complexity
+                            of life, but for the full story please check out my biography (under construction). </h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <p id="back-to-top">
+            <a href="#"><img src="image/scrollup.png"></a>
+        </p>
+        
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- scroll về top -->
+        <script>jQuery(document).ready(function ($) {
+                if ($(window).scrollTop() > 200) {
+                    $('#back-to-top').fadeIn();
+                } else {
+                    $('#back-to-top').fadeOut();
+                }
+        
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 200) {
+                        $('#back-to-top').fadeIn();
+                    } else {
+                        $('#back-to-top').fadeOut();
+                    }
+                });
+        
+                $('#back-to-top').click(function () {
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, 600);
+                    return false;
+                });
+            });</script> <!-- scroll về top -->
+        
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="jquery-1.8.3.js"></script>
+        <script src="js/myjs.js"></script>
+
+        <script src="js/myjs2.js"></script>
+</body>
+
+</html>
